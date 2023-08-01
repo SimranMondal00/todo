@@ -1,0 +1,62 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+ background: url('https://wallpapers.com/images/hd/polygons-abstract-background-mhdoyguhq3skloxt.jpg');
+}
+.heading-todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-todo h1{
+  font-family: cursive;
+  color: rgb(100, 4, 48);
+}
+.heading-todo span{
+  font-family: cursive;
+  color: rgb(100, 4, 48);
+  font-size: large;
+  margin-bottom: 20px;
+}
+.image{
+  background-color: transparent;
+}
+.flex-todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.todo-grid,
+.todo-input-grid{
+  display: grid;
+  grid-template-columns:200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.todo-input-grid{
+  margin-bottom:10px;
+  align-items: stretch;
+}
+.name-input,
+.due-date-input{
+  font-size: 15px;
+  padding: 6px;
+}
+.add-todo-button{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.delete-todo-button{
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 0px;
+}
